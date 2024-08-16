@@ -2,6 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.H2SO4Guide" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/kindaBlack</item>
+        <item name="colorAccent">@color/kindaBlack</item>
+        <item name="android:navigationBarColor">@color/kindaBlack</item>
     </style>
 </resources>
