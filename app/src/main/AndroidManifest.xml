@@ -13,6 +13,12 @@
         android:theme="@style/Theme.H2SO4Guide"
         tools:targetApi="31">
         <activity
+            android:name=".controller.PickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".controller.ProductsActivity"
+            android:exported="false" />
+        <activity
             android:name=".controller.HomeActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

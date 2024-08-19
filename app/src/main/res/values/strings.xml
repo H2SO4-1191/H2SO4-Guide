@@ -2,5 +2,6 @@
     <string name="app_name">H2SO4-Store</string>
     <string name="h2so4">H2SO4</string>
     <string name="store">STORE</string>
-
+    <string name="order">Order Now</string>
+    <string name="loading">Loading description…</string>
 </resources>
